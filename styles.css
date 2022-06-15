@@ -1,242 +1,194 @@
 /*Basic settings*/
 
 body {
-margin: 0 15%;
-font-family: "Playfair Display", serif;
-
+    scroll-behavior: smooth;
+    margin: 0 10%;
+    font-family: "Playfair Display", serif;
 }
 
-a: link {
-    text-decoration: none;
+    
+h3  {
+    font-weight: bold;
 }
+  
 
-a:hover {
-    color: #FEC89A;
-}
+    
+    /*Colors*/
+    
+   .color-label, .color-hex {
+        color: white;
+        text-align: center;
+   }
 
-/*Header settings*/ 
-
-header {
-    width: 1000px;
-    height: 50px;
-    align-items: center;
-    margin: 10px 0;
+   .color-section, .font-section, .text-section {
+    border: 1px solid black;
     padding: 10px;
-}
+    width: 100%;
+    margin-bottom: 20px;
+   }
 
+   .color-panel {
+        display: inline-block;
+        width: 30%;
+        margin: 15px auto;
+        margin-bottom: 25px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+   }
+    
+    .peach {
+        background-color: #FFB5A7;
+        color: white;
+    }
+    
+    .color-hex {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 1.5em;
+        
+    }
+    
+    
+    .pink {
+        background-color: #FCD5CE;
+        color:white;
+    
+    }
+    .cream {
+        background-color: #F8EDEB;
+        color:white;
+    }
+    
+    .yellow {
+        background-color: #F9DCC4;
+        color:white;
+    }
+    
+    .orange {
+        background-color: #FEC89A;
+        color: white;
+    
+    }
 
-h1 {
-    height: 40px;
-    display: inline-block;
-    margin: 20px 10px;
-    font-weight: 600;
-    font-size: 30px;
-    font-family: "playfair display", serif;
-}
+    /* Font Section */
+    
+   .font-section {
+        display: block;
+   }
 
-h2 {
-    font-weight: 700;
-    font-size 24px;
-    font-family: "Raleway", sans-serif;
-}
+   .font-panel {
+        display: inline-block;
+        width: 45%;
+   }
+    
+    .playfair-display {
+        font-family: "Playfair Display";
 
-p {
-    display: block;
-    font-family: "Raleway", serif;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Cutative Mono";
-}
+    }
 
-nav {
-    display: inline-block;
-    float: right;
-    height: 40px;
-    padding: 5px 20px;
-    margin: 20 auto;
-}
+    .title-font {
+        text-decoration: underline;
+        font-size: 18px;
+    }
+    
+    
+    .raleway {
+        font-family: Raleway;
+      
+    }
+    
+    .cutative-mono {
+        font-display: "Cutative Mono";
+       
+    }
 
-nav span {
-    display: inline-block;
-    padding-left: 10px;
-    text-decoration: none;
-    color: black;
-}
+   .bold-font {
+        font-weight: bold;
+   }
 
+    .italic-font {
+        font-weight: italic;
 
+    }
+    
+    /*Footer style settings*/
+    
+    footer {
+        width: 1000px;
+        height: 50px;
+        align-items:baseline;
+        text-align: left;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    
 
-/*Main part setting*/
+    /* Text Styles */
 
-.container {
-    display: block;
-    width: 1000px;
-    border: 2px solid grey;
-    height: 400px;
-    margin: 10px 0;
-    padding: 10px;
-}
-
-.title {
-    margin: 20px 10px;
-}
-
-/*Color part settings*/
-
-.color-panel {
-    display: inline-block;
-    min-height: 100px;
-    width: 30%;
-    text-align: center;
-    margin: 20px 10px;
-}
-
-.peach {
-    background-color: #FFB5A7;
-    color: white;
-}
-
-.color-hex {
-    margin-top: 20px;
-    margin-bottom 5px;
-    font-size: 1.5em;
-}
-
-.color label {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-top: 5px;
-    font-size: 1.2em;
-}
-
-.pink {
-    background-color: #FCD5CE;
-    color:white;
-
-}
-.cream {
-    background-color: #F8EDEB;
-    color:white;
-}
-
-.yellow {
-    background-color: #F9DCC4;
-    color:white;
-}
-
-.orange {
-    background-color: #FEC89A;
-    color: white;
-
-}
-
-.font-label {
-    font-size: 1.5em;
-
-}
-
-.playfair-display {
-    font-family: "Playfair Display";
-    display: block;
-    font-size: 1.3em;
-}
-
-.regular {
-    font-weight: 400;
-}
-
-.medium {
-    font-style: medium;
-    font-weight: 500;
-}
-
-.bold {
-    font-weight: 600;
-}
-
-.raleway {
-    font-family: Raleway;
-    display: block;
-    font-size: 1.2em;
-}
-
-.cutative-mono {
-    font-display: "Cutative Mono";
-    display: block;
-    font-size: 1.3em;
-}
-
-/*Footer style settings*/
-
-footer {
-    width: 1000px;
-    height: 50px;
-    align-items:baseline;
-    text-align: left;
-    margin: 10px 0;
-    padding: 10px;
-}
-
-/*Fonts*/
-
-@font-face {
-    font-family: 'Cutive Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/cutivemono/v14/m8JWjfRfY7WVjVi2E-K9H6RMTm663A.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtHA-Q.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Raleway';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v27/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+    .text-section {
+        display: block;
+    }
+    /*Fonts*/
+    
+    @font-face {
+        font-family: 'Cutive Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/cutivemono/v14/m8JWjfRfY7WVjVi2E-K9H6RMTm663A.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+    
+      @font-face {
+        font-family: 'Playfair Display';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtHA-Q.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+      @font-face {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+      @font-face {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/playfairdisplay/v29/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+      @font-face {
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v27/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+      @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+      @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
