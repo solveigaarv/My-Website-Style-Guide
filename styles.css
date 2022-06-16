@@ -80,6 +80,7 @@ h3  {
         display: inline-block;
         width: 45%;
    }
+
     
     .playfair-display {
         font-family: "Playfair Display";
@@ -97,8 +98,8 @@ h3  {
       
     }
     
-    .cutative-mono {
-        font-display: "Cutative Mono";
+    .cutive-mono {
+        font-family: "Cutive Mono";
        
     }
 
@@ -127,6 +128,14 @@ h3  {
 
     .text-section {
         display: block;
+    }
+
+    .subheading {
+        font-family: "raleway";
+    }
+
+    .p-text {
+        font-family: "Cutive Mono";
     }
     /*Fonts*/
     
